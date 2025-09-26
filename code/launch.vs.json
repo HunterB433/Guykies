@@ -1,0 +1,45 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "cppvsdbg",
+      "exe": "D:\\GPV\\Godot\\Godot_v4.4.1-stable_win64.exe",
+      "project": "CMakeLists.txt",
+      "args": [
+        "--verbose",
+        "--path",
+        "${projectDir}\\..\\godot"
+      ],
+      "cwd": "${projectDir}\\..\\godot"
+    },
+    {
+      "name": "LaunchConsole",
+      "type": "launch",
+      "exe": "D:\\GPV\\Godot\\Godot_v4.4.1-stable_win64_console.exe",
+      "project": "CMakeLists.txt",
+      "args": [
+        "--verbose",
+        "--path",
+        "${projectDir}\\..\\godot"
+      ],
+      "cwd": "${projectDir}\\..\\godot"
+    },
+    {
+      "name": "Edit",
+      "type": "cppvsdbg",
+      "console": "external",
+      "exe": "D:\\GPV\\Godot\\Godot_v4.4.1-stable_win64.exe",
+      "project": "CMakeLists.txt",
+      "args": [
+        "--verbose",
+        "--editor",
+        "--path",
+        "${projectDir}\\..\\godot"
+      ],
+      "cwd": "${projectDir}\\..\\godot"
+    }
+
+  ]
+}
